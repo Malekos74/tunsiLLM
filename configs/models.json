@@ -1,0 +1,10 @@
+
+{
+    "models": [
+        "qwen:7b",
+        "llama3:latest"
+    ],
+    "temperature": 0.0,
+    "seed": 42,
+    "num_predict": 256
+}

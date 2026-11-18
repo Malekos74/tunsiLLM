@@ -1,0 +1,29 @@
+datasets:
+  tunizi:
+    repo_id: arbml/TUNIZI
+    kind: huggingface
+    split: train
+    purpose: monolingual
+    notes: "Arabizi sentiment dataset; inspect before using for language adaptation."
+
+  dhiadev:
+    repo_id: Dhiadev-tn/tunisian-darija-english
+    kind: csv
+    filename: tunisian_dataset.csv
+    purpose: parallel
+    notes: "Small hand-built Arabizi-English parallel dataset. Check license and direction."
+
+  unified_derja:
+    repo_id: hamzabouajila/tunisian-derja-unified-raw-corpus
+    kind: huggingface
+    split: train
+    purpose: monolingual
+    notes: "Large aggregated raw corpus; inspect provenance, script mix, noise and license."
+
+  linagora:
+    repo_id: linagora/Tunisian_Derja_Dataset
+    kind: huggingface
+    purpose: monolingual
+    config: Derja_tunsi
+    split: train
+    notes: "Multi-configuration dataset; start with Derja_tunsi, then inspect other configs."

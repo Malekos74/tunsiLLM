@@ -2,7 +2,8 @@
 {
     "models": [
         "qwen:7b",
-        "llama3:latest"
+        "llama3:latest",
+        "jais3:3.7b-q4"
     ],
     "temperature": 0.0,
     "seed": 42,

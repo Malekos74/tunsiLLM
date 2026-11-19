@@ -62,3 +62,7 @@ For the Dhiadev parallel dataset, do not use the monolingual preprocessing scrip
 - `linagora/Tunisian_Derja_Dataset`: multi-configuration corpus, CC-BY-SA-4.0.
 
 Always re-check the dataset cards and licenses before use.
+
+## Candidate models
+
+ollama run hf.co/IFM/Jais-3-3.7B-GGUF:Q4_K_M

@@ -29,7 +29,8 @@ def translate(
             f"Thinking tokens generated: {len(thinking.split())}"
         )
 
-    return {
-        "thinking": thinking.strip() if show_thinking else "",
-        "translation": answer.strip(),
-    }
+    # return {
+    #     "thinking": thinking.strip() if show_thinking else "",
+    #     "translation": answer.strip(),
+    # }
+    return answer.strip()
